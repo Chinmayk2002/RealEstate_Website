@@ -1,0 +1,503 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.navbar{
+    display: flex;
+    background: transparent;
+    align-self: center;
+    padding: 30px;
+    height: 40px;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.logo{
+    align-self: center;
+    padding: 20px;
+    margin-right: auto;
+}
+.navlist{
+    display: flex;
+    align-self: center;
+    list-style: none;
+   
+}
+.navlist li{
+    padding: 20px 20px;
+    margin: 10px;
+}
+.navlist a{
+    text-decoration: none;
+    color: rgb(4, 4, 114);
+}
+.rightnav1{
+    align-self: center;
+}
+.rightnav2{
+    align-self: center;  
+    margin: 10px;
+    padding: 20px 20px;
+   
+}
+.button1{
+    color: white;
+    background-color: rgb(4, 4, 114);
+    padding: 10px 50px;
+    margin: 10px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+.rightnav{
+    display: flex;
+}
+.maintop1{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    background-position: right;
+    background-image: url(/WebDev/Sample_Website/images/Hero.png);
+    background-color: wheat;
+    background-size: cover;
+    width: 100%;
+}
+.header{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.headtext2{
+    padding: 10px 10px;
+}
+.headtext1 p{
+    padding: 0px 20px;
+}
+
+#headtext1t2{
+    text-align: left;
+    color: rgb(4, 4, 114);
+    font-size: 60px;
+    
+
+}
+#headtext1t3{
+    padding-bottom: 10px ;
+}
+.headtext1{
+    width: 450px;
+}
+.button2{
+    color: rgb(4, 4, 114);
+    background-color: rgb(247, 128, 128);
+    padding: 10px 50px;
+    margin: 10px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.headtext3{
+    background-color: rgb(4, 4, 114);
+    color: white;
+    padding: 50px 150px;
+    margin: 30px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    
+    
+}
+#headtext3t1{
+    text-align: left;
+    width: 450px;
+    font-size: 30px;
+    margin-right: auto;
+    padding: 1px;
+}
+#headtext3t2{
+    text-align: left;
+    width: 450px;
+    padding: 1px;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+    color: black;
+    margin: 180px 0px 0px 0px;
+    background-color: white;
+    
+
+}
+.sec2t{
+    margin: 40px;
+    text-align: center;
+    justify-content: center;
+    margin: 50px 100px;
+    
+}
+.sec2h{
+    margin: 30px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+}
+.sec2h h2{
+    font-size: 30px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+  justify-content: center;
+    
+}
+.card{
+    margin: 20px;
+    line-height: 30px;
+    background-color: rgb(249, 250, 231);
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card p{
+    padding: 10px;
+    margin: 10px;
+}
+.explore_more{
+    color: rgb(4, 4, 114);
+    background-color: rgb(247, 128, 128);
+    padding: 10px 50px;
+    margin: 10px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.headtext4{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    background-color: white;
+    color: rgb(4, 4, 114);
+    padding: 40px ;
+    margin: 1% 15% 1% 15%;
+}
+#headtext4t1{
+    text-align: left;
+    width: 450px;
+    font-size: 30px;
+    margin-right: auto;
+}
+#headtext4t2{
+    text-align: left;
+    width: 450px;
+}
+#headtext4t2 a{
+    color: rgb(4, 4, 114);
+}
+.cards2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+  justify-content: center;
+  color: rgb(4, 4, 114);
+  align-content: center;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    line-height: 30px;
+    background-color: rgba(255, 255, 255, 0.637);
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 50vh;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.blueback1{
+    display: flex;
+    flex-wrap: wrap;
+  flex-direction: row;
+    align-items: center;
+    text-align: left;
+  justify-content: center;
+  min-height: 100%;
+  background-color: rgb(4, 4, 114);
+    color: white;
+    padding: 0px ;
+    margin: 0px 40px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.blueback2{
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+  flex-direction: row;
+    align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  background-color: rgb(4, 4, 114);
+    color: white;
+    padding: 0px ;
+    margin: 0px 40px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.cardcontent{
+    font-size: 20px;
+}
+.cardcontents{
+    padding-left: 10px;
+}
+.headpara5{
+    max-width: 25vw;
+}
+.headtext5{
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.bluecontent1{
+    margin-right: auto;
+    padding: 50px;
+}
+.bluecontent1 svg{
+    height: 5vh;
+    width: 5vw;
+    margin: 30px;
+}
+.bluecontent2 svg{
+    height: 5vh;
+    width: 5vw;
+    margin: 30px;
+}
+
+.bluecontent2{
+    
+    padding: 50px;
+}
+.bluetext5{
+    padding: 20px;
+    font-size: 25px;
+    margin: 10px;
+}
+.bluepara5{
+    padding: 0px 20px;
+    margin: 10px;
+
+}
+.Contact_us{
+    color: rgb(4, 4, 114);
+    background-color: rgb(247, 128, 128);
+    padding: 10px 50px;
+    margin: 10px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.sellproperty{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: baseline;
+    height: 50vh;
+    
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.sellpropertytop{
+    margin: 30px;
+    padding: 20px;
+}
+.selltext2{
+  padding: 20px;
+  font-size: 40px;
+}
+.selltext3{
+    padding: 20px;
+}
+.selltext4{
+    color: rgb(4, 4, 114);
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+  
+    margin: 0px 30px;
+
+}
+.revflex{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 30px;
+}
+.revcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    width: 100%;
+}
+.revimage1{
+    height: 9vh;
+    width: 9vw;
+}
+.revcard p{
+    padding: 20px;
+    margin: 20px;
+}
+.revimage1 {
+    padding: 20px;
+    margin: 10px;
+}
+.reviewtext{
+    font-size: 30px;
+}
+.revtext2{
+    font-size: 40px;
+}
+.newsupdates{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.u{
+    height: 55vh;
+    width: 30vw;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.upt{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    text-align: left;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+}
+
+.upt2{
+    font-size: 30px;
+}
+.upt4{
+    text-align: left;
+    margin: 30px;
+}
+.up2t1{
+    padding: 10px;
+    text-align: left;
+}
+.up2t2{
+    padding: 10px;
+    text-align: left;
+}
+.up2t3{
+    padding: 10px;
+    text-align: left;
+}
+.up3t1{
+    padding: 10px;
+    text-align: left;
+}
+.up3t2{
+    padding: 10px;
+    text-align: left;
+}
+.up3t3{
+    padding: 10px;
+    text-align: left;
+}
+.newsletter{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background-color: beige;
+    height: 15vh;
+    
+    padding: 20px;
+}
+.lettertext{
+    font-size: 30px;
+}
+.subscribebutton{
+    color:white;
+    background-color: rgb(4, 4, 114);
+    padding: 10px 50px;
+    margin: 10px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+.letterinput{
+    margin-left: auto;
+}
+.email{
+    border: solid 1px pink;
+    background-color: beige;
+    
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(4, 4, 114);
+    height: 28vh;
+    padding: 30px;
+    color: white;
+    
+}
+.f1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30vw;
+}
+.f2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30vw;
+
+}
+.f3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30vw;
+
+}
+.footpic{
+    max-height: 80px;
+}
+.picflex{
+    display: flex;
+    flex-direction: row;
+}
+.foottext{
+    padding: 10px;
+}
