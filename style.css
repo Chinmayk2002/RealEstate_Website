@@ -65,7 +65,7 @@ body{
     flex-direction: column;
     height: 60vh;
     background-position: right;
-    background-image: url(/WebDev/Sample_Website/images/Hero.png);
+    background-image: url(images/Hero.png);
     background-color: wheat;
     background-size: cover;
     width: 100%;
